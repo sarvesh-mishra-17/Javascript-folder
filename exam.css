@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    background-color: rgb(133, 133, 228);
+    display: inline-block;
+    position: relative;
+}
+
+
+#right1{
+    position: absolute;
+    /* top: 685px; */
+    width: 50%;
+    height: 100%;
+    left: 0px;
+
+    
+}
+
+#right2{
+    position: absolute;
+    /* top: 685px; */
+    width: 50%;
+    height: 100%;
+    right: 1px;
+}
+
+#box1{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 2px solid red;
+    background-color: rgb(236, 18, 47);
+    left: 704px;
+}
+#box2{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 2px solid red;
+    background-color: rgb(233, 12, 49);
+    top: 680px;
+    right: 1px;
+}
